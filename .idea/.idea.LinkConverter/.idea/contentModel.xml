@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Developer\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Developer\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\Developer\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\Developer\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Developer\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Developer\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Developer\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Developer\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LinkConverter.-468161385.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Developer\RiderProjects\LinkConverter" t="IncludeFlat">
+      <e p="LinkConverter" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CacheService" t="Include">
+          <e p="Redis" t="Include">
+            <e p="ICacheService.cs" t="Include" />
+            <e p="RedisCacheService.cs" t="Include" />
+            <e p="RedisServer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="ConvertController.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="DeepLinkValidation.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IDeepLinkValidation.cs" t="Include" />
+            <e p="IWebUrlValidation.cs" t="Include" />
+          </e>
+          <e p="WebUrlValidation.cs" t="Include" />
+        </e>
+        <e p="LinkConverter.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkConverter.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="LinkConverter.Business" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConvertLink.cs" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="LinkPieces.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IConvert.cs" t="Include" />
+          <e p="ILinkPieces.cs" t="Include" />
+        </e>
+        <e p="LinkConverter.Business.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkConverter.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LinkConverter.Model" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Cache" t="Include">
+          <e p="RedisCacheModel.cs" t="Include" />
+        </e>
+        <e p="Common" t="Include">
+          <e p="DeepLinkModel.cs" t="Include" />
+          <e p="DeepLinkPiecesModel.cs" t="Include" />
+          <e p="ValidDeepLinkModel.cs" t="Include" />
+          <e p="ValidWebUrlModel.cs" t="Include" />
+          <e p="WebUrlModel.cs" t="Include" />
+          <e p="WebUrlPiecesModel.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="UrlType.cs" t="Include" />
+        </e>
+        <e p="LinkConverter.Model.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkConverter.Model.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LinkConverter.sln" t="IncludeFlat" />
+      <e p="LinkConverter.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DeepLinkTests.cs" t="Include" />
+        <e p="LinkConverter.Tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinkConverter.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="WebUrlTests.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
